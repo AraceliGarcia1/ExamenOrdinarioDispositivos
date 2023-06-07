@@ -86,7 +86,7 @@ btnAumentarCanal.addEventListener("click",()=>{
         television.canal++
         console.log("Estas subiendo de canal");
         console.log(television);
-    }else if(television.canal>=10){
+    }else if(television.canal>=100){
         television.canal=1;
         console.log(television);
     }
@@ -96,7 +96,7 @@ btnAumentarCanal.addEventListener("click",()=>{
 
 
 btnBajarCanal.addEventListener("click",()=>{
-    if(television.canal<=10 && television.canal>1){
+    if(television.canal<=100 && television.canal>1){
         television.canal--;
         console.log("Estas bajando canal");
         console.log(television);
